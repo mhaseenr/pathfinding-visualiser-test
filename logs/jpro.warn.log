@@ -1,0 +1,202 @@
+2022-09-03 17:37:21,858 [WARN] from javafx in application-akka.actor.default-dispatcher-9 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @383e2dbb'
+2022-09-03 17:37:23,426 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-9 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2022-09-03 17:37:29,839 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-17 - Unexpected message form client, closing session.
+2022-09-03 18:33:09,193 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-43 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2022-09-03 18:33:18,741 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-43 - Unexpected message form client, closing session.
+2022-09-03 18:33:42,247 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-46 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2022-09-03 18:34:15,871 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-46 - Unexpected message form client, closing session.
+2022-09-03 18:34:55,861 [WARN] from javafx in application-akka.actor.default-dispatcher-7 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @152242d3'
+2022-09-03 18:34:59,925 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-8 - Unexpected message form client, closing session.
+2022-09-03 18:38:25,458 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @2aba3579'
+2022-09-03 18:38:41,221 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-5 - Unexpected message form client, closing session.
+2022-09-03 18:43:14,782 [WARN] from javafx in application-akka.actor.default-dispatcher-9 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @3242fa17'
+2022-09-03 18:43:28,099 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @5f86f17c'
+2022-09-03 18:43:34,639 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-9 - Unexpected message form client, closing session.
+2022-09-03 19:15:56,812 [WARN] from javafx in application-akka.actor.default-dispatcher-7 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @2665ebbb'
+2022-09-03 19:16:21,376 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-9 - Unexpected message form client, closing session.
+2022-09-03 19:16:39,189 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @6de5230b'
+2022-09-03 19:46:52,010 [WARN] from javafx in application-akka.actor.default-dispatcher-7 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @2f6fc95e'
+2022-09-03 19:46:53,388 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-11 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2022-09-03 19:46:53,418 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-31 - The requested application "animation" does not exist!
+2022-09-03 19:46:58,659 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-11 - The requested application "animation" does not exist!
+2022-09-03 19:47:04,937 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-31 - Unexpected message form client, closing session.
+2022-09-03 19:47:45,276 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @508fe003'
+2022-09-03 19:47:49,198 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-18 - Unexpected message form client, closing session.
+2022-09-03 19:57:23,003 [WARN] from javafx in application-akka.actor.default-dispatcher-7 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @6f14c7d9'
+2022-09-03 19:57:24,640 [ERROR] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - Error while starting application: 
+java.lang.IllegalStateException: Location is not set.
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2541)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2516)
+	at com.jpro.pathfinding.PathfindingApplication.start(PathfindingApplication.java:21)
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1(ApplicationStarter.scala:131)
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1$adapted(ApplicationStarter.scala:128)
+	at com.jpro.internal.communicator.InstanceImpl.start(InstanceImpl.scala:39)
+	at com.jpro.internal.communicator.InstanceImpl.$anonfun$new$2(InstanceImpl.scala:31)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at simplefx.cores.standard.parts.CoreTimeEvent.doIt$lzycompute$1(CoreTimeEvent.scala:147)
+	at simplefx.cores.standard.parts.CoreTimeEvent.doIt$1(CoreTimeEvent.scala:145)
+	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runOnceWhen$2(CoreTimeEvent.scala:149)
+	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runOnceWhen$2$adapted(CoreTimeEvent.scala:149)
+	at simplefx.cores.standard.parts.CoreTypesBindable$BindableImpl.$anonfun$triggerOnChange$3(CoreTypesBindable.scala:208)
+	at simplefx.cores.standard.parts.CoreScheduler.runSchedulerImpl(CoreScheduler.scala:73)
+	at simplefx.cores.standard.parts.CoreScheduler.runSchedulerImpl$(CoreScheduler.scala:52)
+	at simplefx.cores.standard.Core.runSchedulerImpl(Core.scala:9)
+	at simplefx.cores.standard.parts.CoreScheduler.tryStartSchedulerStop(CoreScheduler.scala:44)
+	at simplefx.cores.standard.parts.CoreScheduler.tryStartSchedulerStop$(CoreScheduler.scala:42)
+	at simplefx.cores.standard.Core.tryStartSchedulerStop(Core.scala:9)
+	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$2(ViewSerializerActor.scala:60)
+	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$3.run(CoreTimeEvent.scala:62)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-09-03 19:57:24,640 [WARN] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - Application didn't show the stage. JPro is now calling show()
+2022-09-03 19:57:39,545 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-16 - Unexpected message form client, closing session.
+2022-09-03 19:59:07,542 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @9bcfe33'
+2022-09-03 19:59:09,181 [ERROR] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - Error while starting application: 
+java.lang.IllegalStateException: Location is not set.
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2541)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2516)
+	at com.jpro.pathfinding.PathfindingApplication.start(PathfindingApplication.java:26)
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1(ApplicationStarter.scala:131)
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1$adapted(ApplicationStarter.scala:128)
+	at com.jpro.internal.communicator.InstanceImpl.start(InstanceImpl.scala:39)
+	at com.jpro.internal.communicator.InstanceImpl.$anonfun$new$2(InstanceImpl.scala:31)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at simplefx.cores.standard.parts.CoreTimeEvent.doIt$lzycompute$1(CoreTimeEvent.scala:147)
+	at simplefx.cores.standard.parts.CoreTimeEvent.doIt$1(CoreTimeEvent.scala:145)
+	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runOnceWhen$2(CoreTimeEvent.scala:149)
+	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runOnceWhen$2$adapted(CoreTimeEvent.scala:149)
+	at simplefx.cores.standard.parts.CoreTypesBindable$BindableImpl.$anonfun$triggerOnChange$3(CoreTypesBindable.scala:208)
+	at simplefx.cores.standard.parts.CoreScheduler.runSchedulerImpl(CoreScheduler.scala:73)
+	at simplefx.cores.standard.parts.CoreScheduler.runSchedulerImpl$(CoreScheduler.scala:52)
+	at simplefx.cores.standard.Core.runSchedulerImpl(Core.scala:9)
+	at simplefx.cores.standard.parts.CoreScheduler.tryStartSchedulerStop(CoreScheduler.scala:44)
+	at simplefx.cores.standard.parts.CoreScheduler.tryStartSchedulerStop$(CoreScheduler.scala:42)
+	at simplefx.cores.standard.Core.tryStartSchedulerStop(Core.scala:9)
+	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$2(ViewSerializerActor.scala:60)
+	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$3.run(CoreTimeEvent.scala:62)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-09-03 19:59:09,181 [WARN] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - Application didn't show the stage. JPro is now calling show()
+2022-09-03 19:59:14,502 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-14 - Unexpected message form client, closing session.
+2022-09-03 20:00:22,032 [WARN] from javafx in application-akka.actor.default-dispatcher-7 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @7a78e16'
+2022-09-03 20:00:23,723 [ERROR] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - Error while starting application: 
+java.lang.ClassCastException: class com.jpro.pathfinding.PathfindingController cannot be cast to class com.jpro.pathfinding.HelloJProFXMLController (com.jpro.pathfinding.PathfindingController and com.jpro.pathfinding.HelloJProFXMLController are in unnamed module of loader 'app')
+	at com.jpro.pathfinding.PathfindingApplication.start(PathfindingApplication.java:27)
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1(ApplicationStarter.scala:131)
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1$adapted(ApplicationStarter.scala:128)
+	at com.jpro.internal.communicator.InstanceImpl.start(InstanceImpl.scala:39)
+	at com.jpro.internal.communicator.InstanceImpl.$anonfun$new$2(InstanceImpl.scala:31)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at simplefx.cores.standard.parts.CoreTimeEvent.doIt$lzycompute$1(CoreTimeEvent.scala:147)
+	at simplefx.cores.standard.parts.CoreTimeEvent.doIt$1(CoreTimeEvent.scala:145)
+	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runOnceWhen$2(CoreTimeEvent.scala:149)
+	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runOnceWhen$2$adapted(CoreTimeEvent.scala:149)
+	at simplefx.cores.standard.parts.CoreTypesBindable$BindableImpl.$anonfun$triggerOnChange$3(CoreTypesBindable.scala:208)
+	at simplefx.cores.standard.parts.CoreScheduler.runSchedulerImpl(CoreScheduler.scala:73)
+	at simplefx.cores.standard.parts.CoreScheduler.runSchedulerImpl$(CoreScheduler.scala:52)
+	at simplefx.cores.standard.Core.runSchedulerImpl(Core.scala:9)
+	at simplefx.cores.standard.parts.CoreScheduler.tryStartSchedulerStop(CoreScheduler.scala:44)
+	at simplefx.cores.standard.parts.CoreScheduler.tryStartSchedulerStop$(CoreScheduler.scala:42)
+	at simplefx.cores.standard.Core.tryStartSchedulerStop(Core.scala:9)
+	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$2(ViewSerializerActor.scala:60)
+	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$3.run(CoreTimeEvent.scala:62)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-09-03 20:00:23,723 [WARN] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - Application didn't show the stage. JPro is now calling show()
+2022-09-03 20:01:49,018 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @498db3cc'
+2022-09-03 20:04:43,869 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-8 - Unexpected message form client, closing session.
+2022-09-03 20:04:58,720 [WARN] from javafx in application-akka.actor.default-dispatcher-7 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @6a8116a0'
+2022-09-03 20:06:52,447 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-8 - Unexpected message form client, closing session.
+2022-09-03 20:10:22,002 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @3d8f6076'
+2022-09-03 20:10:34,434 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @4b9e1324'
+2022-09-03 20:12:10,297 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-9 - Unexpected message form client, closing session.
+2022-09-04 10:52:38,576 [WARN] from javafx in application-akka.actor.default-dispatcher-7 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @758a011b'
+2022-09-04 10:53:21,622 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-10 - Unexpected message form client, closing session.
+2022-09-04 11:10:25,140 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @7317a8b5'
+2022-09-04 11:13:32,127 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-7 - Unexpected message form client, closing session.
+2022-09-04 11:14:43,332 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @d7352a1'
+2022-09-04 11:14:58,912 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-7 - Unexpected message form client, closing session.
+2022-09-04 11:17:55,198 [WARN] from javafx in application-akka.actor.default-dispatcher-7 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @2f6895b5'
+2022-09-04 11:18:04,449 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-16 - Unexpected message form client, closing session.
+2022-09-04 11:18:45,661 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @7b9d7c0f'
+2022-09-04 11:18:47,109 [ERROR] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - Error while starting application: 
+java.lang.NullPointerException: null
+	at com.jpro.pathfinding.PathfindingApplication.start(PathfindingApplication.java:24)
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1(ApplicationStarter.scala:131)
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1$adapted(ApplicationStarter.scala:128)
+	at com.jpro.internal.communicator.InstanceImpl.start(InstanceImpl.scala:39)
+	at com.jpro.internal.communicator.InstanceImpl.$anonfun$new$2(InstanceImpl.scala:31)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at simplefx.cores.standard.parts.CoreTimeEvent.doIt$lzycompute$1(CoreTimeEvent.scala:147)
+	at simplefx.cores.standard.parts.CoreTimeEvent.doIt$1(CoreTimeEvent.scala:145)
+	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runOnceWhen$2(CoreTimeEvent.scala:149)
+	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runOnceWhen$2$adapted(CoreTimeEvent.scala:149)
+	at simplefx.cores.standard.parts.CoreTypesBindable$BindableImpl.$anonfun$triggerOnChange$3(CoreTypesBindable.scala:208)
+	at simplefx.cores.standard.parts.CoreScheduler.runSchedulerImpl(CoreScheduler.scala:73)
+	at simplefx.cores.standard.parts.CoreScheduler.runSchedulerImpl$(CoreScheduler.scala:52)
+	at simplefx.cores.standard.Core.runSchedulerImpl(Core.scala:9)
+	at simplefx.cores.standard.parts.CoreScheduler.tryStartSchedulerStop(CoreScheduler.scala:44)
+	at simplefx.cores.standard.parts.CoreScheduler.tryStartSchedulerStop$(CoreScheduler.scala:42)
+	at simplefx.cores.standard.Core.tryStartSchedulerStop(Core.scala:9)
+	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$2(ViewSerializerActor.scala:60)
+	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$3.run(CoreTimeEvent.scala:62)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-09-04 11:18:47,109 [WARN] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - Application didn't show the stage. JPro is now calling show()
+2022-09-04 11:19:00,095 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-10 - Unexpected message form client, closing session.
+2022-09-04 11:19:32,690 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @481a387d'
+2022-09-04 11:20:22,474 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-10 - Unexpected message form client, closing session.
+2022-09-04 11:20:58,265 [WARN] from javafx in application-akka.actor.default-dispatcher-7 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @6353312e'
+2022-09-04 11:23:22,028 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-9 - Unexpected message form client, closing session.
+2022-09-04 11:23:41,528 [WARN] from javafx in application-akka.actor.default-dispatcher-9 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @391471de'
+2022-09-04 11:23:58,888 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-8 - Unexpected message form client, closing session.
+2022-09-04 11:52:51,829 [WARN] from javafx in application-akka.actor.default-dispatcher-7 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @d100f6c'
+2022-09-04 11:53:31,538 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-19 - Unexpected message form client, closing session.
+2022-09-04 12:15:45,569 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @27918101'
+2022-09-04 12:16:45,694 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-9 - Unexpected message form client, closing session.
+2022-09-04 12:33:24,361 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @3272c46'
+2022-09-04 12:33:32,565 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-8 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2022-09-04 12:35:45,443 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-16 - Unexpected message form client, closing session.
+2022-09-04 12:35:53,810 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-8 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2022-09-04 12:37:02,675 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-12 - Unexpected message form client, closing session.
+2022-09-04 14:23:59,525 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @30899a0f'
+2022-09-04 14:24:01,072 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-9 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2022-09-04 14:24:34,119 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-10 - Unexpected message form client, closing session.
+2022-09-04 16:40:40,522 [WARN] from javafx in application-akka.actor.default-dispatcher-9 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @79d12fb5'
+2022-09-04 16:40:41,996 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-12 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2022-09-04 16:41:03,809 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-10 - Unexpected message form client, closing session.
+2022-09-04 16:42:20,973 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @2cd1f2a2'
+2022-09-04 16:42:22,369 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-7 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2022-09-04 16:43:52,743 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-11 - Unexpected message form client, closing session.
+2022-09-04 16:45:20,435 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @67f2256b'
+2022-09-04 16:45:21,681 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-8 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2022-09-04 16:46:47,789 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-11 - Unexpected message form client, closing session.
+2022-09-04 17:07:29,038 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @122e08e1'
+2022-09-04 17:07:40,628 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-15 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2022-09-04 17:08:00,034 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-13 - Unexpected message form client, closing session.
+2022-09-04 17:17:00,003 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @30f861df'
+2022-09-04 17:18:26,967 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-10 - Unexpected message form client, closing session.
+2022-09-04 17:20:57,319 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-13 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2022-09-04 17:21:02,001 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-11 - Unexpected message form client, closing session.
+2022-09-05 14:05:58,546 [WARN] from javafx in application-akka.actor.default-dispatcher-7 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @5f7b1dcc'
+2022-09-05 14:06:00,149 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-10 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2022-09-05 14:07:22,681 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-16 - Unexpected message form client, closing session.
+2022-09-05 14:09:31,729 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @5bbb112e'
+2022-09-05 14:09:32,979 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-9 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2022-09-05 14:11:12,981 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-9 - Unexpected message form client, closing session.

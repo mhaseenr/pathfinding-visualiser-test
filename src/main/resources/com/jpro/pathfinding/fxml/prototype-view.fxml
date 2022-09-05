@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.Label?>
+<BorderPane xmlns="http://javafx.com/javafx/11.0.2"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:id="primaryBorderPane"
+            stylesheets="@../css/Viper.css"
+            fx:controller="com.jpro.pathfinding.PathfindingController"
+            style="-fx-background-color: #212f38">
+    <top>
+        <HBox fx:id="headerBar" alignment="CENTER" spacing="10">
+            <ComboBox fx:id="pathAlgorithmSelection">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="Dijkstra's Search"/>
+                        <String fx:value="Depth-First Search"/>
+                        <String fx:value="Breadth-First Search"/>
+                        <String fx:value="A* Search"/>
+                    </FXCollections>
+                </items>
+                <value>
+                    <String fx:value="Dijkstra's Search"/>
+                </value>
+            </ComboBox>
+            <Button text="VISUALISE" fx:id="visualiseButton" onAction="#visualiseAlgorithm"/>
+            <ComboBox fx:id="mazeGenerationSelection">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="Kruskal's Maze"/>
+                        <String fx:value="Prim's Maze"/>
+                        <String fx:value="Aldous-Broder"/>
+                        <String fx:value="Recursive Backtracker"/>
+                    </FXCollections>
+                </items>
+                <value>
+                    <String fx:value="Kruskal's Maze"/>
+                </value>
+            </ComboBox>
+            <Button text="GENERATE MAZE" fx:id="mazeButton" onAction="#mazeGeneration"/>
+            <Button text="ADD INTERMEDIATE"/>
+            <Button text="REMOVE INTERMEDIATE"/>
+        </HBox>
+    </top>
+    <center>
+        <StackPane fx:id="centerPane" prefWidth="250" prefHeight="250">
+            <GridPane fx:id="gridPane" alignment="CENTER"/>
+        </StackPane>
+    </center>
+    <bottom>
+        <HBox fx:id="footer" spacing="15" alignment="CENTER">
+            <Button text="CLEAR GRAPH" fx:id="clearGraphButton" onAction="#cleanGraph"/>
+            <Pane HBox.hgrow="ALWAYS"/>
+            <Label text="HELLO THERE! WELCOME TO HASEEN'S PATHFINDING VISUALISER!" fx:id="messageLabel" textFill="red"/>
+            <Pane HBox.hgrow="ALWAYS"/>
+            <HBox alignment="CENTER_RIGHT" spacing="15">
+                <Slider fx:id="gridSizeSlider" majorTickUnit="1" min="1" max="5" minorTickCount="0" snapToTicks="true" showTickLabels="true"/>
+                <Button text="APPLY" fx:id="gridSizeApply" onAction="#applyNewSize"/>
+            </HBox>
+        </HBox>
+    </bottom>
+</BorderPane>

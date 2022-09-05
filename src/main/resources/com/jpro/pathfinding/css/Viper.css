@@ -1,0 +1,162 @@
+.title {
+    -fx-font-family: "Normafixed Tryout";
+    -fx-font-size: 20;
+}
+
+.caption {
+    -fx-font-family: "Normafixed Tryout";
+    -fx-font-size: 10;
+}
+
+.root {
+    -fx-font-size: 14pt;
+    -fx-font-family: "Normafixed Tryout";
+    -fx-base: rgb(250, 250, 250);
+    -fx-focus-color: derive( sky-blue , 90% );
+    sky-blue: rgb(17, 145, 213);
+    brighter-sky-blue: derive( sky-blue , 50% );
+}
+.combo-box {
+    -fx-pref-width: 300;
+}
+
+.combo-box-popup > .list-view {
+    -fx-pref-height: 200;
+}
+
+.combo-box .list-cell
+{
+    -fx-background: rgb(76, 245, 146);
+    -fx-background-color: rgb(76, 245, 146);
+    -fx-text-fill: -fx-text-base-color;
+    -fx-radius: 20;
+}
+
+.combo-box-popup .list-view
+{
+    -fx-background-color: rgb(33, 47, 56), rgb(33, 47, 56);
+}
+
+.combo-box-base .arrow-button {
+    -fx-background-color: rgb(76, 245, 146);
+}
+
+.combo-box-popup .list-view .list-cell
+{
+    -fx-padding: 4 0 4 5;
+    -fx-text-fill: white;
+    -fx-background-color: rgb(33, 47, 56);
+}
+
+.combo-box-popup .list-view .list-cell:filled:selected, .combo-box-popup .list-view .list-cell:filled:selected:hover
+{
+    -fx-background-color: rgb(76, 245, 146);
+    -fx-background-radius: 50;
+    -fx-border-color: rgb(76, 245, 146);
+    -fx-border-radius: 50;
+    -fx-text-fill: white;
+}
+
+.combo-box-popup .list-view .list-cell:filled:hover
+{
+    -fx-background-color: rgb(76, 245, 146);
+    -fx-background-radius: 20;
+    -fx-text-fill: white;
+    -fx-border-radius: 20;
+}
+
+.menu:pressed {
+ -fx-background: brighter-sky-blue;
+ -fx-background-color: sky-blue;
+ -fx-text-fill: white;
+}
+
+.menu:hover > .label {
+ -fx-background: brighter-sky-blue;
+ -fx-background-color: sky-blue;
+ -fx-text-fill: white;
+}
+
+.menu-bar .menu:selected {
+ -fx-background: brighter-sky-blue;
+ -fx-background-color: sky-blue;
+ -fx-text-fill: white;
+}
+
+.menu-bar .menu-item:selected {
+ -fx-background: rgb(17, 145, 213);
+ -fx-background-color: derive( rgb(17, 145, 213), 50%);
+ -fx-text-fill: white;
+}
+
+.menu-bar .menu-item:focused {
+ -fx-background: rgb(17, 145, 213);
+ -fx-background-color: derive( rgb(17, 145, 213), 50%);
+ -fx-text-fill: white;
+}
+
+.toggle-button{
+    -fx-text-fill: brighter-sky-blue;
+    -fx-border-color: rgba(255, 255, 255, .80);
+    -fx-border-radius: 8;
+    -fx-padding: 6 6 6 6;
+    -fx-font: bold italic 20pt "Normafixed Tryout";
+}
+
+.radio-button:selected .radio .dot {
+    -fx-background-color:brighter-sky-blue;
+}
+
+.check-box:selected .mark {
+    -fx-background-color:brighter-sky-blue;
+}
+
+.scroll-bar:horizontal .thumb {
+ -fx-background-color: brighter-sky-blue;
+}
+.scroll-bar:vertical .thumb {
+ -fx-background-color: brighter-sky-blue;
+}
+
+.slider .thumb {
+ -fx-background-color: brighter-sky-blue;
+}
+
+.progress-bar .bar {
+  -fx-box-border: brighter-sky-blue;
+  -fx-accent: brighter-sky-blue;
+}
+.progress-indicator{
+  -fx-progress-color: brighter-sky-blue;
+}
+.progress-indicator .percentage {
+  -fx-fill: rgb(255, 255, 255);
+}
+
+.button{
+    -fx-background-color: rgba(15, 129, 217, 1);
+    -fx-background-radius: 20;
+    -fx-text-fill: cyan;
+    -fx-border-color: cyan;
+    -fx-border-radius: 20;
+    -fx-padding: 6 6 6 6;
+    -fx-font: bold 20pt "Normafixed Tryout";
+}
+
+.button:hover {
+    -fx-background-color: rgba(255, 0, 0, 1);
+    -fx-background-radius: 20;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-border-radius: 20;
+    -fx-padding: 6 6 6 6;
+    -fx-font: bold 20pt "Normafixed Tryout";
+}
+
+.borders{
+    -fx-border-color: rgba(255, 255, 255, .80);
+    -fx-border-style: dotted;
+    -fx-border-width: 1;
+    -fx-border-insets: -2;
+}
+
